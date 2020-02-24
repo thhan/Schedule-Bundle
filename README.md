@@ -8,6 +8,17 @@ This bundle offers you the possibility to add console commands to a cronjob with
 composer req thhan/schedule-bundle
 ```
 
+Register this bundle manually.
+
+```php
+// config/bundles.php
+
+return [
+    // Other bundles...
+    Thhan\ScheduleBundle\ScheduleBundle::class => ['all' => true],
+];
+```
+
 ## Server configuration
 
 Finally you create a cronjob on the server that executes the "schedule:run" command every minute.
@@ -36,3 +47,8 @@ class YourCommand extends Command {
     }
 }
 ```
+
+## Planned
+
+- add jobs via configuration
+- add logger for output
