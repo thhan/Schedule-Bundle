@@ -1,0 +1,22 @@
+{
+  "name": "thhan/schedule-bundle",
+  "type": "symfony-bundle",
+  "description": "thhan ScheduleBundle",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Hanke",
+      "email": "git@it-hanke.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Thhan\\ScheduleBundle\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.1.3",
+    "mtdowling/cron-expression": "^1.2.3"
+  }
+}
