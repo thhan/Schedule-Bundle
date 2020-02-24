@@ -2,12 +2,12 @@
   "name": "thhan/schedule-bundle",
   "type": "symfony-bundle",
   "description": "thhan ScheduleBundle",
-  "keywords": [],
+  "keywords": ["Schedule", "Bundle", "Command"],
   "license": "MIT",
   "authors": [
     {
       "name": "Thomas Hanke",
-      "email": "git@it-hanke.de"
+      "email": "18329992+thhan@users.noreply.github.com"
     }
   ],
   "autoload": {
